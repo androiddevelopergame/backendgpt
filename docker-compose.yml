@@ -1,0 +1,14 @@
+services:
+  llm:
+    build:
+      context: . # где находится Dockerfile
+      dockerfile: Dockerfile # Явно указываем Dockerfile
+    image: fastapi_llm:v1
+    container_name: fastapi_llm
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1 # Для отображения логов в реальном времени
+    volumes:
+      - /proj/api_llm:/proj/api_llm
+    restart: unless-stopped

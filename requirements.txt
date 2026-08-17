@@ -31,4 +31,5 @@ torch
 torchdiffeq
 torchsde
 transformers
+tokenizers
 pillow-avif-plugin==1.4.3

@@ -38,4 +38,4 @@ torchdiffeq==0.2.3
 torchsde==0.2.6
 httpx==0.24.1
 pillow-avif-plugin==1.4.3
-pydantic==1.10.15
+pydantic>=2.0.0

@@ -4,7 +4,7 @@ numpy<2.0.0
 pydantic>=2.0.0
 onnxruntime>=1.17.0
 open-clip-torch==2.24.0
-transformers>=4.48.2
+transformers>=4.45.1
 setuptools==69.5.1  # temp fix for compatibility with some old packages
 GitPython==3.1.32
 Pillow==9.5.0

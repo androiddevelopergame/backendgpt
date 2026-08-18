@@ -1,6 +1,7 @@
+facexlib>=0.3.0
+fastapi==0.103.0
 numpy<2.0.0
 pydantic>=2.0.0
-fastapi>=0.100.0
 onnxruntime>=1.17.0
 open-clip-torch==2.24.0
 setuptools==69.5.1  # temp fix for compatibility with some old packages
